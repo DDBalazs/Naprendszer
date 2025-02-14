@@ -25,6 +25,12 @@
               <a class="nav-link" href="/holdak/3">Holdak</a>
             </li>
           </ul>
+          <div class="ms-auto">
+              <form class="d-flex" action="/search" method="GET">
+                <input class="form-control me-sm-2" type="search" placeholder="Search" name="search">
+                <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
         </nav>
     </div>
     @yield('content')

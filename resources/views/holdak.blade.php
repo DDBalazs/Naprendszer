@@ -19,7 +19,7 @@
                     <td>{{$sorszam++}}</td>
                     <td>{{$row->nev}}</td>
                     <td>{{$row->felfedezes}}</td>
-                    <td><a class="btn btn-dark" href="/edit/{{$row->bolygok_id}}">Módosítás</a></td>
+                    <td><a class="btn btn-dark" href="/edit/{{$row->holdak_id}}">Módosítás</a></td>
                 </tr>
             @endforeach
         </table>

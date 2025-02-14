@@ -11,3 +11,5 @@ Route::get('/holdak/{id}', [NaprendszerController::class, 'Holdak']);
 
 Route::get('/edit/{id}', [NaprendszerController::class, 'Edit']);
 Route::post('/edit/{id}', [NaprendszerController::class, 'EditData']);
+
+Route::get('/search/{search}', [NaprendszerController::class, 'Search']);
